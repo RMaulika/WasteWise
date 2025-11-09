@@ -30,11 +30,12 @@ Waste-wise/
 - Classes: *Organic (O)* and *Recyclable (R)*
 - Dataset organized into train/validation/test using a custom split script.
 
-** Command to run: **
+**Command to run:**
+```bash
 cd Week1
 python main.py
 
-** Outputs: **
+**Outputs:**
 outputs/best_model.h5
 outputs/accuracy_plot.png
 outputs/loss_plot.png
@@ -61,18 +62,18 @@ Improve the baseline MobileNetV2 model’s performance by:
 ✅ Trained the fine-tuned model for multiple epochs  
 ✅ Evaluated and saved updated metrics and plots  
 
-** Command to Run: **
+**Command to Run:**
+```bash
 python Week2/main.py
 
-** Outputs: **
+**Outputs:**
 Week2/outputs/fine_tuned_model.h5
-
 Week2/outputs/accuracy_plot_week2.png
-
 Week2/outputs/loss_plot_week2.png
-
 Week2/outputs/confusion_matrix_week2.png
 
 Week 2 Summary:
 ✅Validation accuracy (after fine-tuning): ≈ 98–99 %
 ✅Noticeable reduction in validation loss and improved generalization
+
+---
