@@ -1,19 +1,28 @@
+# Virtual environment
 .venv/
+
+# Python cache files
 __pycache__/
 *.pyc
+
+# Large model checkpoints
 *.h5
 *.ckpt
+
+# Notebooks
 .ipynb_checkpoints/
-data/
-# Ignore dataset and output folders
+notebooks/
+ 
+# Datasets and data (do not push large datasets)
 dataset/
 data/
+
+# Ignore outputs by default, but allow Week3 outputs explicitly
 outputs/
-notebooks/
+Week1/outputs/
+Week2/outputs/
+!Week3/outputs/
+!Week3/outputs/**
 
-# Ignore virtual environment
-.venv/
-
-# Ignore Python cache files
-__pycache__/
-*.pyc
+# Keep safe sample images (if you want them tracked)
+sample_images/

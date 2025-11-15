@@ -1,0 +1,5 @@
+experiment,val_acc,val_loss,model_size_MB,notes
+exp1,0.9813736903376019,NA,NA,unfreeze20_lr5e-5_epochs12
+exp2,0.9790454016298021,NA,NA,unfreeze50_lr1e-4_epochs12
+tflite,0.9790454016298021,NA,2.39,post-training quantized (float) tflite
+tflite_int8,0.9790454016298021,NA,2.58,full int8 quantized tflite model

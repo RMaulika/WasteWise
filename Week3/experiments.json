@@ -1,0 +1,5 @@
+{
+  "exp1": {"name":"finetune_unfreeze20_lr5e-5_epochs12"},
+  "exp2": {"name":"finetune_unfreeze50_lr1e-4_epochs12"},
+  "optimize": {"name":"quantize_tflite_post_training"}
+}
